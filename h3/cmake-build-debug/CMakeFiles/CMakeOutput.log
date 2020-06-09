@@ -1,0 +1,143 @@
+The system is: Darwin - 19.5.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/gravescn/opt/anaconda3/bin/clang 
+Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/gravescn/opt/anaconda3/bin/make cmTC_cf805/fast && /Users/gravescn/opt/anaconda3/bin/make -f CMakeFiles/cmTC_cf805.dir/build.make CMakeFiles/cmTC_cf805.dir/build
+make[1]: Entering directory '/Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf805.dir/testCCompiler.c.o
+/Users/gravescn/opt/anaconda3/bin/clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cf805.dir/testCCompiler.c.o   -c "/Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_cf805
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf805.dir/link.txt --verbose=1
+/Users/gravescn/opt/anaconda3/bin/clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs  CMakeFiles/cmTC_cf805.dir/testCCompiler.c.o  -o cmTC_cf805 
+make[1]: Leaving directory '/Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/gravescn/opt/anaconda3/bin/make cmTC_3533f/fast && /Users/gravescn/opt/anaconda3/bin/make -f CMakeFiles/cmTC_3533f.dir/build.make CMakeFiles/cmTC_3533f.dir/build
+make[1]: Entering directory '/Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.o
+/Users/gravescn/opt/anaconda3/bin/clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+clang version 4.0.1 (tags/RELEASE_401/final)
+Target: x86_64-apple-darwin19.5.0
+Thread model: posix
+InstalledDir: /Users/gravescn/opt/anaconda3/bin
+clang-4.0: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Users/gravescn/opt/anaconda3/bin/clang-4.0" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-cpu core2 -target-feature +ssse3 -target-linker-version 241.9 -v -dwarf-column-info -debugger-tuning=lldb -coverage-notes-file /Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/gravescn/opt/anaconda3/bin/../lib/clang/4.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -O2 -fdebug-compilation-dir /Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fblocks -fobjc-runtime=macosx-10.15.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+clang -cc1 version 4.0.1 based upon LLVM 4.0.1 default target x86_64-apple-darwin19.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/gravescn/opt/anaconda3/bin/../lib/clang/4.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_3533f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3533f.dir/link.txt --verbose=1
+/Users/gravescn/opt/anaconda3/bin/clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -v -Wl,-v CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.o  -o cmTC_3533f 
+clang version 4.0.1 (tags/RELEASE_401/final)
+Target: x86_64-apple-darwin19.5.0
+Thread model: posix
+InstalledDir: /Users/gravescn/opt/anaconda3/bin
+ "/usr/bin/ld" -demangle -lto_library /Users/gravescn/opt/anaconda3/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_3533f -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -v CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.o -lSystem /Users/gravescn/opt/anaconda3/bin/../lib/clang/4.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-556.6
+BUILD 17:57:49 Apr 24 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+make[1]: Leaving directory '/Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/gravescn/opt/anaconda3/bin/../lib/clang/4.0.1/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Users/gravescn/opt/anaconda3/bin/../lib/clang/4.0.1/include] ==> [/Users/gravescn/opt/anaconda3/lib/clang/4.0.1/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  implicit include dirs: [/Users/gravescn/opt/anaconda3/lib/clang/4.0.1/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/gravescn/opt/anaconda3/bin/make cmTC_3533f/fast && /Users/gravescn/opt/anaconda3/bin/make -f CMakeFiles/cmTC_3533f.dir/build.make CMakeFiles/cmTC_3533f.dir/build]
+  ignore line: [make[1]: Entering directory '/Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/gravescn/opt/anaconda3/bin/clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 4.0.1 (tags/RELEASE_401/final)]
+  ignore line: [Target: x86_64-apple-darwin19.5.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/gravescn/opt/anaconda3/bin]
+  ignore line: [clang-4.0: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Users/gravescn/opt/anaconda3/bin/clang-4.0" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-cpu core2 -target-feature +ssse3 -target-linker-version 241.9 -v -dwarf-column-info -debugger-tuning=lldb -coverage-notes-file /Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/gravescn/opt/anaconda3/bin/../lib/clang/4.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -O2 -fdebug-compilation-dir /Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fblocks -fobjc-runtime=macosx-10.15.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 4.0.1 based upon LLVM 4.0.1 default target x86_64-apple-darwin19.5.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/gravescn/opt/anaconda3/bin/../lib/clang/4.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_3533f]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3533f.dir/link.txt --verbose=1]
+  ignore line: [/Users/gravescn/opt/anaconda3/bin/clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -v -Wl,-v CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.o  -o cmTC_3533f ]
+  ignore line: [clang version 4.0.1 (tags/RELEASE_401/final)]
+  ignore line: [Target: x86_64-apple-darwin19.5.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/gravescn/opt/anaconda3/bin]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /Users/gravescn/opt/anaconda3/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_3533f -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -v CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.o -lSystem /Users/gravescn/opt/anaconda3/bin/../lib/clang/4.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/gravescn/opt/anaconda3/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3533f] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dead_strip_dylibs] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_3533f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Users/gravescn/opt/anaconda3/bin/../lib/clang/4.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/gravescn/opt/anaconda3/bin/../lib/clang/4.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Users/gravescn/opt/anaconda3/bin/../lib/clang/4.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+

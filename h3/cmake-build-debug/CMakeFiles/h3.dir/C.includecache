@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/aes.h
+stdlib.h
+-
+stdio.h
+-
+stdint.h
+-
+memory.h
+-
+
+/Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/main.c
+aes.h
+/Users/gravescn/Desktop/GS/2020 SU/VE475/homework/h3/aes.h
+
